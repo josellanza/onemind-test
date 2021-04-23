@@ -1,0 +1,49 @@
+.animalBlock {
+  margin: 40px 100px;
+  background-color: #e3dada;
+  border: 0;
+  border-radius: 11px;
+  border-style: outset;
+  height: fit-content;
+  width: 15%;
+}
+
+.removeBtn {
+  background-color: white;
+  border-radius: 11px;
+  border: 0.5px solid darkgrey;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.removeBtn:hover {
+  background-color: #e1e5eb;
+  cursor: pointer;
+}
+
+.showMoreBtn {
+  border: 0;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.showMoreBtn:hover {
+  cursor: pointer;
+}
+
+.titleBlock {
+  margin: 20px;
+  text-transform: uppercase;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.userDetails {
+  margin: 20px auto;
+  border-bottom: 0.5px solid darkgrey;
+}
+
+.userList {
+  list-style-type:none;
+  padding: 0 30px;
+}
